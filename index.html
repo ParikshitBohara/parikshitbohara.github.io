@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parikshit Bohara | Cybersecurity Portfolio</title>
+    <title>Parikshit Bohara | Cybersecurity</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+
     <header>
-        <h1>Parikshit Bohara</h1>
-        <p>Cybersecurity Enthusiast | IT Student</p>
+        <h1 class="typing-effect">Parikshit Bohara</h1>
+        <p>Cybersecurity Enthusiast | Ethical Hacking | Network Security</p>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -23,41 +25,61 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm an IT student at La Trobe University passionate about cybersecurity and ethical hacking.</p>
+        <p>Passionate about cybersecurity, penetration testing, and network security. Currently pursuing CompTIA A+ and learning ethical hacking.</p>
     </section>
 
     <section id="skills">
         <h2>Skills & Tools</h2>
-        <ul>
-            <li>Network Security</li>
-            <li>Wireshark</li>
-            <li>Kali Linux</li>
-            <li>CompTIA A+ (In Progress)</li>
-        </ul>
+        <div class="skill-container">
+            <div class="skill">Wireshark</div>
+            <div class="skill">Kali Linux</div>
+            <div class="skill">Network Security</div>
+            <div class="skill">Ethical Hacking</div>
+            <div class="skill">Python for Security</div>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <p>Coming Soon...</p>
+        <div class="project">
+            <div class="project-card">
+                <div class="front">Wireshark Network Analysis</div>
+                <div class="back">Used Wireshark to analyze network traffic and detect potential threats.</div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-card">
+                <div class="front">Penetration Testing</div>
+                <div class="back">Performed ethical hacking simulations to assess network vulnerabilities.</div>
+            </div>
+        </div>
     </section>
 
     <section id="certifications">
         <h2>Certifications</h2>
         <ul>
             <li>Google IT Professional Certificate</li>
+            <li>CompTIA A+ (In Progress)</li>
             <li>Microsoft Security Essentials</li>
         </ul>
+        <a href="resume.pdf" download class="download-btn">Download Resume</a>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
         <p>Email: <a href="mailto:boharaparikshit@gmail.com">boharaparikshit@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/parikshitbohara" target="_blank">linkedin.com/in/parikshitbohara</a></p>
-        <a href="resume.pdf" download>Download Resume</a>
     </section>
 
     <footer>
         <p>&copy; 2024 Parikshit Bohara</p>
     </footer>
+
 </body>
 </html>
