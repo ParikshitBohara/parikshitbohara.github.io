@@ -9,76 +9,72 @@
 </head>
 <body>
 
+    <canvas id="matrix"></canvas> <!-- Matrix Rain Effect -->
+
     <header>
-        <h1 class="typing-effect">Parikshit Bohara</h1>
-        <p>Cybersecurity Enthusiast | Ethical Hacking | Network Security</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="nav-container">
+            <h1 class="glitch">Parikshit Bohara</h1>
+            <p class="subtitle">Cybersecurity | Ethical Hacking | Pentesting</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#terminal">Hacker Console</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Passionate about cybersecurity, penetration testing, and network security. Currently pursuing CompTIA A+ and learning ethical hacking.</p>
+        <p>Cybersecurity enthusiast with expertise in ethical hacking, network security, and penetration testing. Passionate about digital defense.</p>
     </section>
 
     <section id="skills">
         <h2>Skills & Tools</h2>
-        <div class="skill-container">
-            <div class="skill">Wireshark</div>
-            <div class="skill">Kali Linux</div>
-            <div class="skill">Network Security</div>
-            <div class="skill">Ethical Hacking</div>
-            <div class="skill">Python for Security</div>
+        <div class="skills-grid">
+            <div class="skill-card">Wireshark</div>
+            <div class="skill-card">Kali Linux</div>
+            <div class="skill-card">Metasploit</div>
+            <div class="skill-card">Python for Security</div>
+            <div class="skill-card">Nmap</div>
+            <div class="skill-card">Burp Suite</div>
         </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
+        <div class="project-container">
             <div class="project-card">
-                <div class="front">Wireshark Network Analysis</div>
-                <div class="back">Used Wireshark to analyze network traffic and detect potential threats.</div>
+                <div class="project-front">Wireshark Network Analysis</div>
+                <div class="project-back">Analyzed network traffic for security threats using Wireshark.</div>
             </div>
-        </div>
-        <div class="project">
             <div class="project-card">
-                <div class="front">Penetration Testing</div>
-                <div class="back">Performed ethical hacking simulations to assess network vulnerabilities.</div>
+                <div class="project-front">Pentesting Lab</div>
+                <div class="project-back">Simulated ethical hacking attacks in a controlled environment.</div>
             </div>
         </div>
     </section>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Google IT Professional Certificate</li>
-            <li>CompTIA A+ (In Progress)</li>
-            <li>Microsoft Security Essentials</li>
-        </ul>
-        <a href="resume.pdf" download class="download-btn">Download Resume</a>
+    <section id="terminal">
+        <h2>Hacker Terminal</h2>
+        <div class="terminal-container">
+            <div id="terminal-output"></div>
+            <input type="text" id="terminal-input" placeholder="Type a command..." autofocus>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+        <h2>Contact</h2>
         <p>Email: <a href="mailto:boharaparikshit@gmail.com">boharaparikshit@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/parikshitbohara" target="_blank">linkedin.com/in/parikshitbohara</a></p>
+        <a href="resume.pdf" download class="download-btn">Download Resume</a>
     </section>
 
     <footer>
-        <p>&copy; 2024 Parikshit Bohara</p>
+        <p>&copy; 2024 Parikshit Bohara | Cybersecurity Portfolio</p>
     </footer>
 
 </body>
